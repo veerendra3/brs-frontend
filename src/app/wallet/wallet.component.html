@@ -1,0 +1,54 @@
+<div class="d-flex">
+    <div style="display: flex" class="h-500px">
+        <nav style="height:500px"class="border border-2 bg-light  display-inline-block" >
+            <ul class="list-unstyled components">
+                <li>
+                    <button  class="btn w-100  btn-primary" [routerLink]="['..','bookings']">Bookings</button>
+                </li>
+                <li>
+                    <button class="btn w-100 mt-1 btn-primary" [routerLink]="['..','profile']">Profile</button>
+                </li>
+                <li>
+                    <button class="btn mt-1 w-100 btn-primary" [routerLink]="['..','changepassword']">Change Password</button>
+                </li>
+                <li>
+                    <button class="btn mt-1 w-100 btn-primary">Wallet</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    
+        <table class="table rounded rounded-5" style="margin-left: 10px; background-color:lavenderblush">
+            <thead>
+                <th>S.No</th>
+                <th>Card Type</th>
+                <th>Card No.</th>
+                <th>Validity</th>
+            </thead>
+
+            <!-- <tr *ngFor="let card of wallets;let i = index"> -->
+                <tr class="bg-info rounded ">
+                <td>i</td>
+                <td>card.cardType</td>
+                <td>card.cardno</td>
+                <td>card.validity</td>
+            </tr>
+
+            <tr class="bg-info rounded ">
+                <td>i</td>
+                <td>card.cardType</td>
+                <td>card.cardno</td>
+                <td>card.validity</td>
+            </tr>
+            
+            <tr class="bg-info rounded">
+                <td>i</td>
+                <td>card.cardType</td>
+                <td>card.cardno</td>
+                <td>card.validity</td>
+            </tr>
+            
+        </table>
+
+        </div>

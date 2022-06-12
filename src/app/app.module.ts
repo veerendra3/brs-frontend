@@ -16,9 +16,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { DefaultComponent } from './default/default.component';
-import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
+
 import { LogoutComponent } from './logout/logout.component';
-import { WalletComponent } from './wallet/wallet.component';
+
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { AddbusComponent } from './addbus/addbus.component';
 import { SearchComponent } from './search/search.component';
@@ -50,9 +50,9 @@ import { ContactusComponent } from './contactus/contactus.component';
     LoginComponent,
     SignupComponent,
     DefaultComponent,
-    ResetpasswordComponent,
+    
     LogoutComponent,
-    WalletComponent,
+    
     AdminloginComponent,
     AddbusComponent,
     SearchComponent,

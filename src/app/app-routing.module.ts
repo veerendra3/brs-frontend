@@ -7,9 +7,9 @@ import { BooknewticketComponent } from './booknewticket/booknewticket.component'
 import { LoginComponent } from './login/login.component';
 import { DefaultComponent } from './default/default.component';
 import { SignupComponent } from './signup/signup.component';
-import { WalletComponent } from './wallet/wallet.component';
+
 import { LogoutComponent } from './logout/logout.component';
-import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
+
 import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SearchComponent } from './search/search.component';
@@ -44,8 +44,8 @@ const routes: Routes = [
   {path:'bookings',component:BookingsComponent},
   {path:'changepassword',component:ChangepasswordComponent},
   {path:'newticket/:id',component:BooknewticketComponent},
-  {path:'reset',component:ResetpasswordComponent},
-  {path:'wallet',component:WalletComponent},
+  
+  
   {path:'adminlogin',component:AdminloginComponent},
   {path:'search',component:SearchComponent} ,
   {path:'top',component:ToproutesComponent},

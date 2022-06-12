@@ -35,6 +35,7 @@ import { DeleterouteComponent } from './deleteroute/deleteroute.component';
 import { AddrouteComponent } from './addroute/addroute.component';
 import { HomeComponent } from './home/home.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { ReceiptComponent } from './receipt/receipt.component';
 
 
 @NgModule({
@@ -69,6 +70,7 @@ import { ContactusComponent } from './contactus/contactus.component';
     AddrouteComponent,
     HomeComponent,
     ContactusComponent,
+    ReceiptComponent,
     
   ],
   imports: [

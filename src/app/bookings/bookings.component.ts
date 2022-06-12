@@ -34,8 +34,9 @@ export class BookingsComponent implements OnInit {
     window.location.reload();
   }
 
-  print(){
-    
+  print(booking:Bookings){
+    BookingService.booking=booking
+    this.router.navigate(['receipt'])
   }
 
 }

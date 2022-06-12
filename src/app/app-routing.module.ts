@@ -28,6 +28,7 @@ import { AddrouteComponent } from './addroute/addroute.component';
 import { DeleterouteComponent } from './deleteroute/deleteroute.component';
 import { HomeComponent } from './home/home.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { ReceiptComponent } from './receipt/receipt.component';
 
 
 
@@ -40,7 +41,7 @@ const routes: Routes = [
   { path:'profile', component:ProfileComponent},
   {path:'',component:HomeComponent},
   {path:'contact',component:ContactusComponent},
-  
+  {path:'receipt',component:ReceiptComponent},
   {path:'bookings',component:BookingsComponent},
   {path:'changepassword',component:ChangepasswordComponent},
   {path:'newticket/:id',component:BooknewticketComponent},

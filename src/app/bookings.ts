@@ -1,7 +1,7 @@
 export class Bookings {
     bookId:number|any;
-    start:string|any;
-    end:string|any;
+    source:string|any;
+    destination:string|any;
     busNo:number|any;
     bookedDate:Date|any;
     journeyDate:Date|any;
